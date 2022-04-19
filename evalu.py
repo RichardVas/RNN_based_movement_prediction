@@ -172,11 +172,7 @@ for i in evaluationset:
     end = time()
     out = [float(out[0]),float(out[1])]
 
-    ##print(out)
-   # print(out[0],i[-1][0])
-  #  display_results = Grapher()
-    #display_results.addArray(i,out)
-  #  display_results.save_multi_image(i,out)
+
     
     print(i)
    # print('tar',i[-1])
@@ -187,20 +183,4 @@ for i in evaluationset:
     
     print('Accuracy in %','MAPE:',MAPE(i[-1],out),'in: ',end-start,' sec')
     print('-----------')
-#vis.displayGraph()
 
-  #  vis.addArray(i)
-
-
-   # print(test10)
-    #pro = evaluation_model.predict4(test10)
-    #print('pro',pro)
-    #vis.addArray(i)
-  #  vis.addArray(out)
-#vis.displayGraph()
-
-#print(perdiff(23,24))
-
-
-ww = [[365.01122771, 228.47822027], [364.26953125, 228.78639221191406]]
-print('pls',MAPE(ww[1],ww[0]))
