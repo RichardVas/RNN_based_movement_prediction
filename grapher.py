@@ -7,14 +7,6 @@ from matplotlib.backends.backend_pdf import PdfPages, PdfFile
 
 class Grapher():
     def __init__(self):
-#        super(Grapher, self).__init__()
-        #todo
-        #given an 2d array
-        #convert ot np array
-        #transpose
-        #scatter then plot, finally show the whole
-#        pass
-
 
         self.base=[]
 #        self.fig, self.axs = plt.subplots()
@@ -56,11 +48,10 @@ class Grapher():
     def display2(self):
         #feladat: hozzunk letre dinamikusan iterlhato tengelyeket listajat, annyi tengely legyen mint elem a self.baseben
         # ezt egyszerre iteraljuk vegig a self.basel és az aktuális elemet az aktuális tengelyre rakom
-        #ez
         fig, ax = plt.subplots(nrows=12, ncols=2)
         
         plt.tight_layout()
-       # fig, [ax1, ax2] = plt.subplots(len(self.base))
+
         i= 0
         for row in ax:
             for col in row:
@@ -85,12 +76,11 @@ class Grapher():
                 plt.rcParams['pdf.fonttype'] = 42
                 plt.rcParams['font.family'] = 'Calibri'
     # with PdfPages('test.pdf') as pdf:
-        #fig.savefig("bruh.pdf",bbox_inches = 'tight')
+
 
                 pp = PdfPages('foo.pdf')
                 pp.savefig(col)
-        #      pp.savefig(plot2)
-        #      pp.savefig(plot3)
+
                 pp.close()
 
         plt.show()
@@ -140,9 +130,7 @@ class Grapher():
 
         fig2 = plt.figure()
         plt.title('predicted')
-        whatisit = inp
-       #đ whatisit[-1] = [pred]
-      #  print('pred',whatisit)
+
         tmppred = np.array(pred)
         tmppred = tmppred.T
         plt.scatter(tmppred[0],tmppred[1],color = 'red')
@@ -165,22 +153,9 @@ if __name__ == "__main__":
     displayer = Grapher()
 
 
-    bla = [[10, 20], [20, 30], [40, 50]]
-    qwe = [[1,2],[2,3],[4,5]]
+    proba1 = [[10, 20], [20, 30], [40, 50]]
+    proba2 = [[1,2],[2,3],[4,5]]
    # qwe = [[]]
    # displayer.addArray(qwe)
     #displayer.displayGraph()
-    displayer.save_multi_image(bla, qwe)
-   # asd = [[4,5],[5,3],[9,5]]
-    
-   # blaasd = [[10, 20], [20, 30], [40, 50]]
- #   displayer.addArray(qwe)
- #   displayer.addArray(asd)
- #   displayer.addArray(bla)
- #   displayer.addArray(qwe)
-   # displayer.displayGraph()
- #   displayer.display2()
-#fig, axs = plt.subplots()
-#fig.suptitle('Vertically stacked subplots')
-#axs[0].plot(x, y)
-#axs[1].plot(x, -y)
+    displayer.save_multi_image(proba1, proba2)
