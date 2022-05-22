@@ -9,7 +9,7 @@ Továbbá készítettem egy demó videót, amely bemutatja a hálózat működé
 <br/>
 A hálózat predikciókat végez a detektált objektumokon, amint azok elérik a szükséges küszöbértékeket. Ezen esetben ez 10 konzekvens lépés.
 
-![ezgif-1-0a55ba2315](https://user-images.githubusercontent.com/58149185/169697908-4a02898b-15ed-405f-b596-286302f55387.gif))
+![ezgif-1-0a55ba2315](https://user-images.githubusercontent.com/58149185/169697908-4a02898b-15ed-405f-b596-286302f55387.gif)
 
 ## Teszt videó
 <br/>
@@ -23,9 +23,9 @@ A hálózat hátránya, ha az objektum követő algortimusom nem képes lépést
 ## Predikciós eredmények
 <br/>
 A hálózat gyorsan képes prediktálni több objektumon is, anélkül hogy hátráltatná a framek feldolgozását.
-![mean_rtt](https://user-images.githubusercontent.com/58149185/163893726-20899f8c-fbc0-45e2-baf8-02a092c2ac2e.jpg)
-
-Képes gyorsan, közel pontos értékeket prediktálni, ha megfelelő inputokat kapott.
+![mean_rtt](https://user-images.githubusercontent.com/58149185/169698259-0c21e863-2a06-44ac-99da-cf6c47842912.jpg)
+ 
+Képes gyorsan, közel pontos értékeket prediktálni, amennyiben megfelelő inputok és előfeltételek adottak.
 ![41](https://user-images.githubusercontent.com/58149185/163893786-132072fa-55e3-4194-acd6-1f5bbc3d2baf.png)
 <br/>
 ![44](https://user-images.githubusercontent.com/58149185/163893796-3b4fdb83-57fa-4c32-b140-a118b6a677fc.png)
