@@ -13,8 +13,8 @@ A hálózat predikciókat végez a detektált objektumokon, amint azok elérik a
 
 ## Prediktált videók
 <br/>
-A youtube videó megosztó portálra feltöltöttem egy videót, amelyben a program működését tesztelem egy városi közegben.<br/>
-Az alábbi videó jól demonstrálja a program előnyeit és hátrányait. <br/>
+A youtube videó megosztó portálra feltöltöttem néhány videót, amelyekben a program működését demonstrálom különböző közegekben.<br/>
+Az alábbi videók remekül demonstrálja a program előnyeit és hátrányait. <br/>
 Képes valós időben prediktálni, és közel pontos eredménnyel. A hátránya ennek a gyorsaságnak a pontosság.<br/>
 
 ### Statikus felvétel - Autópálya
