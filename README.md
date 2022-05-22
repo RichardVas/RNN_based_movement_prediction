@@ -9,7 +9,7 @@ Továbbá készítettem egy demó videót, amely bemutatja a hálózat működé
 <br/>
 A hálózat predikciókat végez a detektált objektumokon, amint azok elérik a szükséges küszöbértékeket. Ezen esetben ez 10 konzekvens lépés.
 
-![traffic_g](![ezgif-1-0a55ba2315](https://user-images.githubusercontent.com/58149185/169697908-4a02898b-15ed-405f-b596-286302f55387.gif))
+![ezgif-1-0a55ba2315](https://user-images.githubusercontent.com/58149185/169697908-4a02898b-15ed-405f-b596-286302f55387.gif))
 
 ## Teszt videó
 <br/>
